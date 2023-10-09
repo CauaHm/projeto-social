@@ -40,11 +40,29 @@ main {
 }
 
 #tela {
-    position: relative;
+    position: absolute;
     top: 80px;
     left: 22px;
     width: 269px;
     height: 471px;
 
 
+}
+
+#social {
+    text-align: right;
+}
+
+#social img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.400);
+}
+
+#social img:hover {
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transition: transform .3s;
 }
